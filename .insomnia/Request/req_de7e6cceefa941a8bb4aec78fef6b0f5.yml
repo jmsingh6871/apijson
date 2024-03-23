@@ -1,0 +1,23 @@
+_id: req_de7e6cceefa941a8bb4aec78fef6b0f5
+type: Request
+parentId: fld_b129419b3a1f40d98c5dd2c9a31f9892
+modified: 1711220236433
+created: 1711219095227
+url: https://x4us-backend-opu5.onrender.com/api/category
+name: get
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1711219095227
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

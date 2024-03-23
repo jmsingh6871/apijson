@@ -1,0 +1,1244 @@
+_id: req_5cfe016529544073aa2bf8b84add67b0
+type: Request
+parentId: fld_a775163dd4c841efb6f5b84f61e00ba6
+modified: 1703661508364
+created: 1703661487094
+url: ""
+name: New Request
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"log": {
+    		"version": "1.2",
+    		"creator": {
+    			"name": "Insomnia REST Client",
+    			"version": "insomnia.desktop.app:v2023.5.8"
+    		},
+    		"entries": [
+    			{
+    				"startedDateTime": "2023-12-27T07:07:34.784Z",
+    				"time": 278.65299999999996,
+    				"request": {
+    					"method": "PUT",
+    					"url": "http://localhost:3000/update-bid/11",
+    					"httpVersion": "HTTP/1.1",
+    					"cookies": [],
+    					"headers": [
+    						{
+    							"name": "Content-Type",
+    							"value": "application/json"
+    						},
+    						{
+    							"name": "User-Agent",
+    							"value": "insomnia/2023.5.8"
+    						},
+    						{
+    							"name": "Authorization",
+    							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTcwMjkyMDk0NCwiZXhwIjoxNzAyOTI0NTQ0fQ.4il02-Rv_fK7pVFWF4YnZOxoBo5ABudtEnLxmx-c0ug"
+    						}
+    					],
+    					"queryString": [],
+    					"postData": {
+    						"mimeType": "application/json",
+    						"text": "{\n\t\"bid_amount\": \"400\"\n}",
+    						"params": []
+    					},
+    					"headersSize": -1,
+    					"bodySize": -1,
+    					"settingEncodeUrl": true
+    				},
+    				"response": {
+    					"status": 200,
+    					"statusText": "OK",
+    					"httpVersion": "HTTP/1.1",
+    					"cookies": [],
+    					"headers": [
+    						{
+    							"name": "X-Powered-By",
+    							"value": "Express"
+    						},
+    						{
+    							"name": "Content-Type",
+    							"value": "application/json; charset=utf-8"
+    						},
+    						{
+    							"name": "Content-Length",
+    							"value": "146"
+    						},
+    						{
+    							"name": "ETag",
+    							"value": "W/\"92-Mr1dMeUDXz05sk+x7T3EQ4dtZw8\""
+    						},
+    						{
+    							"name": "Date",
+    							"value": "Mon, 18 Dec 2023 17:37:36 GMT"
+    						},
+    						{
+    							"name": "Connection",
+    							"value": "keep-alive"
+    						},
+    						{
+    							"name": "Keep-Alive",
+    							"value": "timeout=5"
+    						}
+    					],
+    					"content": {
+    						"size": 146,
+    						"mimeType": "application/json; charset=utf-8",
+    						"text": "{\"bid\":{\"id\":\"11\",\"user_id\":1,\"product_id\":1,\"bid_amount\":\"400.00\",\"createdat\":\"2023-12-18T17:36:43.410Z\",\"updatedat\":\"2023-12-18T22:37:35.000Z\"}}"
+    					},
+    					"redirectURL": "",
+    					"headersSize": -1,
+    					"bodySize": -1
+    				},
+    				"cache": {},
+    				"timings": {
+    					"blocked": -1,
+    					"dns": -1,
+    					"connect": -1,
+    					"send": 0,
+    					"wait": 278.65299999999996,
+    					"receive": 0,
+    					"ssl": -1
+    				},
+    				"comment": "update-bet"
+    			},
+    			{
+    				"startedDateTime": "2023-12-27T07:07:34.784Z",
+    				"time": 278.079,
+    				"request": {
+    					"method": "POST",
+    					"url": "http://localhost:3000/bid",
+    					"httpVersion": "HTTP/1.1",
+    					"cookies": [],
+    					"headers": [
+    						{
+    							"name": "Content-Type",
+    							"value": "application/json"
+    						},
+    						{
+    							"name": "User-Agent",
+    							"value": "insomnia/2023.5.8"
+    						},
+    						{
+    							"name": "Authorization",
+    							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTcwMjkyMDk0NCwiZXhwIjoxNzAyOTI0NTQ0fQ.4il02-Rv_fK7pVFWF4YnZOxoBo5ABudtEnLxmx-c0ug"
+    						}
+    					],
+    					"queryString": [],
+    					"postData": {
+    						"mimeType": "application/json",
+    						"text": "{\n\t\"id\": \"11\",\n\t\"product_id\": \"1\",\n\t\"bid_amount\": \"200\"\n}",
+    						"params": []
+    					},
+    					"headersSize": -1,
+    					"bodySize": -1,
+    					"settingEncodeUrl": true
+    				},
+    				"response": {
+    					"status": 200,
+    					"statusText": "OK",
+    					"httpVersion": "HTTP/1.1",
+    					"cookies": [],
+    					"headers": [
+    						{
+    							"name": "X-Powered-By",
+    							"value": "Express"
+    						},
+    						{
+    							"name": "Content-Type",
+    							"value": "application/json; charset=utf-8"
+    						},
+    						{
+    							"name": "Content-Length",
+    							"value": "124"
+    						},
+    						{
+    							"name": "ETag",
+    							"value": "W/\"7c-VdWHATy9xEEozTHlzThYO8YLlbk\""
+    						},
+    						{
+    							"name": "Date",
+    							"value": "Mon, 18 Dec 2023 17:36:43 GMT"
+    						},
+    						{
+    							"name": "Connection",
+    							"value": "keep-alive"
+    						},
+    						{
+    							"name": "Keep-Alive",
+    							"value": "timeout=5"
+    						}
+    					],
+    					"content": {
+    						"size": 124,
+    						"mimeType": "application/json; charset=utf-8",
+    						"text": "{\"bid\":{\"id\":\"11\",\"user_id\":1,\"product_id\":1,\"bid_amount\":\"200.00\",\"createdat\":\"2023-12-18T17:36:43.410Z\",\"updatedat\":null}}"
+    					},
+    					"redirectURL": "",
+    					"headersSize": -1,
+    					"bodySize": -1
+    				},
+    				"cache": {},
+    				"timings": {
+    					"blocked": -1,
+    					"dns": -1,
+    					"connect": -1,
+    					"send": 0,
+    					"wait": 278.079,
+    					"receive": 0,
+    					"ssl": -1
+    				},
+    				"comment": "bet"
+    			},
+    			{
+    				"startedDateTime": "2023-12-27T07:07:34.784Z",
+    				"time": 1595.39,
+    				"request": {
+    					"method": "GET",
+    					"url": "http://localhost:3000/bet-products",
+    					"httpVersion": "HTTP/1.1",
+    					"cookies": [],
+    					"headers": [
+    						{
+    							"name": "User-Agent",
+    							"value": "insomnia/2023.5.8"
+    						}
+    					],
+    					"queryString": [],
+    					"postData": {
+    						"mimeType": "",
+    						"text": "",
+    						"params": []
+    					},
+    					"headersSize": -1,
+    					"bodySize": -1,
+    					"settingEncodeUrl": true
+    				},
+    				"response": {
+    					"status": 200,
+    					"statusText": "OK",
+    					"httpVersion": "HTTP/1.1",
+    					"cookies": [],
+    					"headers": [
+    						{
+    							"name": "X-Powered-By",
+    							"value": "Express"
+    						},
+    						{
+    							"name": "Content-Type",
+    							"value": "application/json; charset=utf-8"
+    						},
+    						{
+    							"name": "Content-Length",
+    							"value": "152"
+    						},
+    						{
+    							"name": "ETag",
+    							"value": "W/\"98-zrRjKCYaMRuQ/yh2VvrHzH2y8Jg\""
+    						},
+    						{
+    							"name": "Date",
+    							"value": "Sat, 16 Dec 2023 18:46:01 GMT"
+    						},
+    						{
+    							"name": "Connection",
+    							"value": "keep-alive"
+    						},
+    						{
+    							"name": "Keep-Alive",
+    							"value": "timeout=5"
+    						}
+    					],
+    					"content": {
+    						"size": 152,
+    						"mimeType": "application/json; charset=utf-8",
+    						"text": "{\"products\":[{\"id\":1,\"name\":\"Peoduct Name\",\"description\":\"This is a dummy product.\",\"price\":\"120.00\",\"quantity\":46,\"is_bettable\":true,\"is_active\":\"Y\"}]}"
+    					},
+    					"redirectURL": "",
+    					"headersSize": -1,
+    					"bodySize": -1
+    				},
+    				"cache": {},
+    				"timings": {
+    					"blocked": -1,
+    					"dns": -1,
+    					"connect": -1,
+    					"send": 0,
+    					"wait": 1595.39,
+    					"receive": 0,
+    					"ssl": -1
+    				},
+    				"comment": "betProducts"
+    			},
+    			{
+    				"startedDateTime": "2023-12-27T07:07:34.784Z",
+    				"time": 1556.804,
+    				"request": {
+    					"method": "PUT",
+    					"url": "http://localhost:3000/update-profile",
+    					"httpVersion": "HTTP/1.1",
+    					"cookies": [],
+    					"headers": [
+    						{
+    							"name": "Content-Type",
+    							"value": "application/json"
+    						},
+    						{
+    							"name": "User-Agent",
+    							"value": "insomnia/2023.5.8"
+    						},
+    						{
+    							"name": "Authorization",
+    							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTcwMjc0OTM1NywiZXhwIjoxNzAyNzUyOTU3fQ.JJMKOCr1UoEdTLu5iWaRKFDk5vFyIjilRA_DlI_BzQU"
+    						}
+    					],
+    					"queryString": [],
+    					"postData": {
+    						"mimeType": "application/json",
+    						"text": "{\n\t\t\"username\": \"Jagmohan Singh\",\n\t\t\"email\": \"jmsingh6871@gmail.com\",\n\t\t\"phonenum\": \"93151747536\"\n\t}",
+    						"params": []
+    					},
+    					"headersSize": -1,
+    					"bodySize": -1,
+    					"settingEncodeUrl": true
+    				},
+    				"response": {
+    					"status": 200,
+    					"statusText": "OK",
+    					"httpVersion": "HTTP/1.1",
+    					"cookies": [],
+    					"headers": [
+    						{
+    							"name": "X-Powered-By",
+    							"value": "Express"
+    						},
+    						{
+    							"name": "Content-Type",
+    							"value": "application/json; charset=utf-8"
+    						},
+    						{
+    							"name": "Content-Length",
+    							"value": "200"
+    						},
+    						{
+    							"name": "ETag",
+    							"value": "W/\"c8-oyVEuh1ZNXQlpsvazEhAKx8CIRM\""
+    						},
+    						{
+    							"name": "Date",
+    							"value": "Sat, 16 Dec 2023 18:05:57 GMT"
+    						},
+    						{
+    							"name": "Connection",
+    							"value": "keep-alive"
+    						},
+    						{
+    							"name": "Keep-Alive",
+    							"value": "timeout=5"
+    						}
+    					],
+    					"content": {
+    						"size": 200,
+    						"mimeType": "application/json; charset=utf-8",
+    						"text": "{\"updatedProfile\":{\"id\":3,\"username\":\"Jagmohan Singh\",\"email\":\"jmsingh6871@gmail.com\",\"password\":\"$2b$10$VE8GdCFz8r8KDB76gugGou1ddVfQt78KNTy2F9Euy1e6ffQrLKjje\",\"role\":\"user\",\"phonenum\":\"93151747536\"}}"
+    					},
+    					"redirectURL": "",
+    					"headersSize": -1,
+    					"bodySize": -1
+    				},
+    				"cache": {},
+    				"timings": {
+    					"blocked": -1,
+    					"dns": -1,
+    					"connect": -1,
+    					"send": 0,
+    					"wait": 1556.804,
+    					"receive": 0,
+    					"ssl": -1
+    				},
+    				"comment": "updateProfile"
+    			},
+    			{
+    				"startedDateTime": "2023-12-27T07:07:34.784Z",
+    				"time": 1607.335,
+    				"request": {
+    					"method": "GET",
+    					"url": "http://localhost:3000/fetch-profile",
+    					"httpVersion": "HTTP/1.1",
+    					"cookies": [],
+    					"headers": [
+    						{
+    							"name": "User-Agent",
+    							"value": "insomnia/2023.5.8"
+    						},
+    						{
+    							"name": "Authorization",
+    							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTcwMjc0OTM1NywiZXhwIjoxNzAyNzUyOTU3fQ.JJMKOCr1UoEdTLu5iWaRKFDk5vFyIjilRA_DlI_BzQU"
+    						}
+    					],
+    					"queryString": [],
+    					"postData": {
+    						"mimeType": "",
+    						"text": "",
+    						"params": []
+    					},
+    					"headersSize": -1,
+    					"bodySize": -1,
+    					"settingEncodeUrl": true
+    				},
+    				"response": {
+    					"status": 200,
+    					"statusText": "OK",
+    					"httpVersion": "HTTP/1.1",
+    					"cookies": [],
+    					"headers": [
+    						{
+    							"name": "X-Powered-By",
+    							"value": "Express"
+    						},
+    						{
+    							"name": "Content-Type",
+    							"value": "application/json; charset=utf-8"
+    						},
+    						{
+    							"name": "Content-Length",
+    							"value": "101"
+    						},
+    						{
+    							"name": "ETag",
+    							"value": "W/\"65-CHeJTO/OLQyyvwFcAqLMe0joTkQ\""
+    						},
+    						{
+    							"name": "Date",
+    							"value": "Sat, 16 Dec 2023 17:59:24 GMT"
+    						},
+    						{
+    							"name": "Connection",
+    							"value": "keep-alive"
+    						},
+    						{
+    							"name": "Keep-Alive",
+    							"value": "timeout=5"
+    						}
+    					],
+    					"content": {
+    						"size": 101,
+    						"mimeType": "application/json; charset=utf-8",
+    						"text": "{\"userProfile\":{\"username\":\"Jagmohan Singh\",\"email\":\"jmsingh6871@gmail.com\",\"phonenum\":\"9315174753\"}}"
+    					},
+    					"redirectURL": "",
+    					"headersSize": -1,
+    					"bodySize": -1
+    				},
+    				"cache": {},
+    				"timings": {
+    					"blocked": -1,
+    					"dns": -1,
+    					"connect": -1,
+    					"send": 0,
+    					"wait": 1607.335,
+    					"receive": 0,
+    					"ssl": -1
+    				},
+    				"comment": "fetchProfile"
+    			},
+    			{
+    				"startedDateTime": "2023-12-27T07:07:34.784Z",
+    				"time": 0,
+    				"request": {
+    					"method": "PUT",
+    					"url": "http://localhost:3000/update-address",
+    					"httpVersion": "HTTP/1.1",
+    					"cookies": [],
+    					"headers": [
+    						{
+    							"name": "Content-Type",
+    							"value": "application/json"
+    						},
+    						{
+    							"name": "User-Agent",
+    							"value": "insomnia/2023.5.8"
+    						},
+    						{
+    							"name": "Authorization",
+    							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTcwMjI3NDM3NCwiZXhwIjoxNzAyMjc3OTc0fQ.mTxutUq817zxNQxsvJ2ao7WM2GMgHTHfSk3ypajKjc0"
+    						}
+    					],
+    					"queryString": [],
+    					"postData": {
+    						"mimeType": "application/json",
+    						"text": "{\n  \"street\": \"123 Main Street\",\n  \"city\": \"Cityville\",\n  \"pincode\": \"1\",\n\t\"phone_num\":\"9996888764\",\n\t\"type\":\"office\"\n}\n",
+    						"params": []
+    					},
+    					"headersSize": -1,
+    					"bodySize": -1,
+    					"settingEncodeUrl": true
+    				},
+    				"response": {
+    					"status": 0,
+    					"statusText": "",
+    					"httpVersion": "HTTP/1.1",
+    					"cookies": [],
+    					"headers": [],
+    					"content": {
+    						"size": 0,
+    						"mimeType": ""
+    					},
+    					"redirectURL": "",
+    					"headersSize": -1,
+    					"bodySize": -1
+    				},
+    				"cache": {},
+    				"timings": {
+    					"blocked": -1,
+    					"dns": -1,
+    					"connect": -1,
+    					"send": 0,
+    					"wait": 0,
+    					"receive": 0,
+    					"ssl": -1
+    				},
+    				"comment": "updateAddress"
+    			},
+    			{
+    				"startedDateTime": "2023-12-27T07:07:34.784Z",
+    				"time": 1086.5610000000001,
+    				"request": {
+    					"method": "PUT",
+    					"url": "http://localhost:3000/add-address",
+    					"httpVersion": "HTTP/1.1",
+    					"cookies": [],
+    					"headers": [
+    						{
+    							"name": "Content-Type",
+    							"value": "application/json"
+    						},
+    						{
+    							"name": "User-Agent",
+    							"value": "insomnia/2023.5.8"
+    						},
+    						{
+    							"name": "Authorization",
+    							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTcwMjI3NDM3NCwiZXhwIjoxNzAyMjc3OTc0fQ.mTxutUq817zxNQxsvJ2ao7WM2GMgHTHfSk3ypajKjc0"
+    						}
+    					],
+    					"queryString": [],
+    					"postData": {
+    						"mimeType": "application/json",
+    						"text": "{\n  \"street\": \"123 Main Street\",\n  \"city\": \"Cityville\",\n  \"pincode\": \"1\",\n\t\"phone_num\":\"9996888764\",\n\t\"type\":\"Home\"\n}\n",
+    						"params": []
+    					},
+    					"headersSize": -1,
+    					"bodySize": -1,
+    					"settingEncodeUrl": true
+    				},
+    				"response": {
+    					"status": 200,
+    					"statusText": "OK",
+    					"httpVersion": "HTTP/1.1",
+    					"cookies": [],
+    					"headers": [
+    						{
+    							"name": "X-Powered-By",
+    							"value": "Express"
+    						},
+    						{
+    							"name": "Content-Type",
+    							"value": "application/json; charset=utf-8"
+    						},
+    						{
+    							"name": "Content-Length",
+    							"value": "158"
+    						},
+    						{
+    							"name": "ETag",
+    							"value": "W/\"9e-SsfG12ZtcA6aby6jtc5YBBjZd2Q\""
+    						},
+    						{
+    							"name": "Date",
+    							"value": "Mon, 11 Dec 2023 06:09:06 GMT"
+    						},
+    						{
+    							"name": "Connection",
+    							"value": "keep-alive"
+    						},
+    						{
+    							"name": "Keep-Alive",
+    							"value": "timeout=5"
+    						}
+    					],
+    					"content": {
+    						"size": 158,
+    						"mimeType": "application/json; charset=utf-8",
+    						"text": "{\"message\":\"Address updated successfully\",\"address\":{\"id\":6,\"user_id\":2,\"street\":\"123 Main Street\",\"city\":\"Cityville\",\"pincode\":\"1\",\"phone_num\":\"9996888764\"}}"
+    					},
+    					"redirectURL": "",
+    					"headersSize": -1,
+    					"bodySize": -1
+    				},
+    				"cache": {},
+    				"timings": {
+    					"blocked": -1,
+    					"dns": -1,
+    					"connect": -1,
+    					"send": 0,
+    					"wait": 1086.5610000000001,
+    					"receive": 0,
+    					"ssl": -1
+    				},
+    				"comment": "addAddress"
+    			},
+    			{
+    				"startedDateTime": "2023-12-27T07:07:34.784Z",
+    				"time": 2129.163,
+    				"request": {
+    					"method": "POST",
+    					"url": "http://localhost:3000/orders",
+    					"httpVersion": "HTTP/1.1",
+    					"cookies": [],
+    					"headers": [
+    						{
+    							"name": "Content-Type",
+    							"value": "application/json"
+    						},
+    						{
+    							"name": "User-Agent",
+    							"value": "insomnia/2023.5.8"
+    						},
+    						{
+    							"name": "Authorization",
+    							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTcwMjI2Njk3MywiZXhwIjoxNzAyMjcwNTczfQ.cowe2OWgP6P4k5N_LTREpv5e2WM4np3oCGTHFVjqYH0"
+    						}
+    					],
+    					"queryString": [],
+    					"postData": {
+    						"mimeType": "application/json",
+    						"text": "{\n  \"productId\": 1,\n  \"quantity\": 2\n}\n",
+    						"params": []
+    					},
+    					"headersSize": -1,
+    					"bodySize": -1,
+    					"settingEncodeUrl": true
+    				},
+    				"response": {
+    					"status": 200,
+    					"statusText": "OK",
+    					"httpVersion": "HTTP/1.1",
+    					"cookies": [],
+    					"headers": [
+    						{
+    							"name": "X-Powered-By",
+    							"value": "Express"
+    						},
+    						{
+    							"name": "Content-Type",
+    							"value": "application/json; charset=utf-8"
+    						},
+    						{
+    							"name": "Content-Length",
+    							"value": "160"
+    						},
+    						{
+    							"name": "ETag",
+    							"value": "W/\"a0-yhOZbOG/HCLtECKD5QAWwtUp0qE\""
+    						},
+    						{
+    							"name": "Date",
+    							"value": "Mon, 11 Dec 2023 04:12:26 GMT"
+    						},
+    						{
+    							"name": "Connection",
+    							"value": "keep-alive"
+    						},
+    						{
+    							"name": "Keep-Alive",
+    							"value": "timeout=5"
+    						}
+    					],
+    					"content": {
+    						"size": 160,
+    						"mimeType": "application/json; charset=utf-8",
+    						"text": "{\"order\":{\"id\":2,\"user_id\":null,\"product_id\":1,\"quantity\":2,\"total_amount\":\"240.00\",\"order_date\":\"2023-12-11T09:12:26.487Z\",\"address_id\":null,\"phone_num\":null}}"
+    					},
+    					"redirectURL": "",
+    					"headersSize": -1,
+    					"bodySize": -1
+    				},
+    				"cache": {},
+    				"timings": {
+    					"blocked": -1,
+    					"dns": -1,
+    					"connect": -1,
+    					"send": 0,
+    					"wait": 2129.163,
+    					"receive": 0,
+    					"ssl": -1
+    				},
+    				"comment": "addOrder"
+    			},
+    			{
+    				"startedDateTime": "2023-12-27T07:07:34.784Z",
+    				"time": 342.468,
+    				"request": {
+    					"method": "POST",
+    					"url": "http://localhost:3000/login",
+    					"httpVersion": "HTTP/1.1",
+    					"cookies": [],
+    					"headers": [
+    						{
+    							"name": "Content-Type",
+    							"value": "application/json"
+    						},
+    						{
+    							"name": "User-Agent",
+    							"value": "insomnia/2023.5.8"
+    						}
+    					],
+    					"queryString": [],
+    					"postData": {
+    						"mimeType": "application/json",
+    						"text": "{\n  \"email\": \"jmsingh6871@gmail.com\",\n  \"password\": \"dummy123\"\n}",
+    						"params": []
+    					},
+    					"headersSize": -1,
+    					"bodySize": -1,
+    					"settingEncodeUrl": true
+    				},
+    				"response": {
+    					"status": 200,
+    					"statusText": "OK",
+    					"httpVersion": "HTTP/1.1",
+    					"cookies": [],
+    					"headers": [
+    						{
+    							"name": "X-Powered-By",
+    							"value": "Express"
+    						},
+    						{
+    							"name": "Content-Type",
+    							"value": "application/json; charset=utf-8"
+    						},
+    						{
+    							"name": "Content-Length",
+    							"value": "155"
+    						},
+    						{
+    							"name": "ETag",
+    							"value": "W/\"9b-KN3pg2HIRmkNdiPB2VtdJKGWUcE\""
+    						},
+    						{
+    							"name": "Date",
+    							"value": "Mon, 18 Dec 2023 17:35:44 GMT"
+    						},
+    						{
+    							"name": "Connection",
+    							"value": "keep-alive"
+    						},
+    						{
+    							"name": "Keep-Alive",
+    							"value": "timeout=5"
+    						}
+    					],
+    					"content": {
+    						"size": 155,
+    						"mimeType": "application/json; charset=utf-8",
+    						"text": "{\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTcwMjkyMDk0NCwiZXhwIjoxNzAyOTI0NTQ0fQ.4il02-Rv_fK7pVFWF4YnZOxoBo5ABudtEnLxmx-c0ug\"}"
+    					},
+    					"redirectURL": "",
+    					"headersSize": -1,
+    					"bodySize": -1
+    				},
+    				"cache": {},
+    				"timings": {
+    					"blocked": -1,
+    					"dns": -1,
+    					"connect": -1,
+    					"send": 0,
+    					"wait": 342.468,
+    					"receive": 0,
+    					"ssl": -1
+    				},
+    				"comment": "Signin"
+    			},
+    			{
+    				"startedDateTime": "2023-12-27T07:07:34.784Z",
+    				"time": 233.893,
+    				"request": {
+    					"method": "POST",
+    					"url": "http://localhost:3000/signup",
+    					"httpVersion": "HTTP/1.1",
+    					"cookies": [],
+    					"headers": [
+    						{
+    							"name": "Content-Type",
+    							"value": "application/json"
+    						},
+    						{
+    							"name": "User-Agent",
+    							"value": "insomnia/2023.5.8"
+    						}
+    					],
+    					"queryString": [],
+    					"postData": {
+    						"mimeType": "application/json",
+    						"text": "{\n  \"username\": \"Nitesh Nagpal\",\n  \"email\": \"nagpalnitesh9@gmail.com\",\n  \"password\": \"dummy123\",\n\t\"phonenum\":\"9996888764\"\n}",
+    						"params": []
+    					},
+    					"headersSize": -1,
+    					"bodySize": -1,
+    					"settingEncodeUrl": true
+    				},
+    				"response": {
+    					"status": 200,
+    					"statusText": "OK",
+    					"httpVersion": "HTTP/1.1",
+    					"cookies": [],
+    					"headers": [
+    						{
+    							"name": "X-Powered-By",
+    							"value": "Express"
+    						},
+    						{
+    							"name": "Content-Type",
+    							"value": "application/json; charset=utf-8"
+    						},
+    						{
+    							"name": "Content-Length",
+    							"value": "190"
+    						},
+    						{
+    							"name": "ETag",
+    							"value": "W/\"be-akaDVGBznWUgS7LDf5jiCusgVrw\""
+    						},
+    						{
+    							"name": "Date",
+    							"value": "Mon, 18 Dec 2023 11:13:31 GMT"
+    						},
+    						{
+    							"name": "Connection",
+    							"value": "keep-alive"
+    						},
+    						{
+    							"name": "Keep-Alive",
+    							"value": "timeout=5"
+    						}
+    					],
+    					"content": {
+    						"size": 190,
+    						"mimeType": "application/json; charset=utf-8",
+    						"text": "{\"user\":{\"id\":2,\"username\":\"Nitesh Nagpal\",\"email\":\"nagpalnitesh9@gmail.com\",\"password\":\"$2b$10$gBVCYkgywvkzHXgQBGrjQOxSLp7MXbwcS50oN6fARI0OXAzlf.PUC\",\"role\":\"user\",\"phonenum\":\"9996888764\"}}"
+    					},
+    					"redirectURL": "",
+    					"headersSize": -1,
+    					"bodySize": -1
+    				},
+    				"cache": {},
+    				"timings": {
+    					"blocked": -1,
+    					"dns": -1,
+    					"connect": -1,
+    					"send": 0,
+    					"wait": 233.893,
+    					"receive": 0,
+    					"ssl": -1
+    				},
+    				"comment": "Signup"
+    			},
+    			{
+    				"startedDateTime": "2023-12-27T07:07:34.784Z",
+    				"time": 1248.747,
+    				"request": {
+    					"method": "DELETE",
+    					"url": "https://x4us-backend-mvq6.onrender.com/products/2",
+    					"httpVersion": "HTTP/1.1",
+    					"cookies": [],
+    					"headers": [
+    						{
+    							"name": "Content-Type",
+    							"value": "application/json"
+    						},
+    						{
+    							"name": "User-Agent",
+    							"value": "insomnia/2023.5.8"
+    						},
+    						{
+    							"name": "Authorization",
+    							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTcwMjIyOTYyNSwiZXhwIjoxNzAyMjMzMjI1fQ.kkymwmJfy0EjmF0FhtIr-nOpkSPkmCWqriH82Q9XVTU"
+    						}
+    					],
+    					"queryString": [],
+    					"postData": {
+    						"mimeType": "application/json",
+    						"text": "",
+    						"params": []
+    					},
+    					"headersSize": -1,
+    					"bodySize": -1,
+    					"settingEncodeUrl": true
+    				},
+    				"response": {
+    					"status": 200,
+    					"statusText": "",
+    					"httpVersion": "HTTP/1.1",
+    					"cookies": [],
+    					"headers": [
+    						{
+    							"name": "date",
+    							"value": "Sun, 10 Dec 2023 17:35:58 GMT"
+    						},
+    						{
+    							"name": "content-type",
+    							"value": "application/json; charset=utf-8"
+    						},
+    						{
+    							"name": "cf-ray",
+    							"value": "83373f510c235514-DEL"
+    						},
+    						{
+    							"name": "cf-cache-status",
+    							"value": "DYNAMIC"
+    						},
+    						{
+    							"name": "etag",
+    							"value": "W/\"86-tJWPDQJNvxJ0/YqnCJcEQQzgIno\""
+    						},
+    						{
+    							"name": "vary",
+    							"value": "Accept-Encoding"
+    						},
+    						{
+    							"name": "rndr-id",
+    							"value": "f8d3e804-f804-4ec8"
+    						},
+    						{
+    							"name": "x-powered-by",
+    							"value": "Express"
+    						},
+    						{
+    							"name": "x-render-origin-server",
+    							"value": "Render"
+    						},
+    						{
+    							"name": "server",
+    							"value": "cloudflare"
+    						},
+    						{
+    							"name": "alt-svc",
+    							"value": "h3=\":443\"; ma=86400"
+    						}
+    					],
+    					"content": {
+    						"size": 134,
+    						"mimeType": "application/json; charset=utf-8",
+    						"text": "{\"product\":{\"id\":2,\"name\":\"Peoduct Name\",\"description\":\"This is a dummy product.\",\"price\":\"100.00\",\"quantity\":50,\"is_bettable\":false}}"
+    					},
+    					"redirectURL": "",
+    					"headersSize": -1,
+    					"bodySize": -1
+    				},
+    				"cache": {},
+    				"timings": {
+    					"blocked": -1,
+    					"dns": -1,
+    					"connect": -1,
+    					"send": 0,
+    					"wait": 1248.747,
+    					"receive": 0,
+    					"ssl": -1
+    				},
+    				"comment": "delProduct"
+    			},
+    			{
+    				"startedDateTime": "2023-12-27T07:07:34.784Z",
+    				"time": 201.774,
+    				"request": {
+    					"method": "POST",
+    					"url": "http://localhost:3000/products",
+    					"httpVersion": "HTTP/1.1",
+    					"cookies": [],
+    					"headers": [
+    						{
+    							"name": "Content-Type",
+    							"value": "application/json"
+    						},
+    						{
+    							"name": "User-Agent",
+    							"value": "insomnia/2023.5.8"
+    						},
+    						{
+    							"name": "Authorization",
+    							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTcwMjg5ODA0MiwiZXhwIjoxNzAyOTAxNjQyfQ.hOiIe1Uxcr9YlvY9p9aSV-Dwlu6NKJ2DrRuomxMTW_M"
+    						}
+    					],
+    					"queryString": [],
+    					"postData": {
+    						"mimeType": "application/json",
+    						"text": "{\n  \"name\": \"Product Name\",\n  \"description\": \"This is a dummy product.\",\n  \"price\": 100.00,\n  \"quantity\": 50,\n  \"is_bettable\": false,\n\t\"start_time\": null,\n\t\"end_time\": null\n}\n",
+    						"params": []
+    					},
+    					"headersSize": -1,
+    					"bodySize": -1,
+    					"settingEncodeUrl": true
+    				},
+    				"response": {
+    					"status": 200,
+    					"statusText": "OK",
+    					"httpVersion": "HTTP/1.1",
+    					"cookies": [],
+    					"headers": [
+    						{
+    							"name": "X-Powered-By",
+    							"value": "Express"
+    						},
+    						{
+    							"name": "Content-Type",
+    							"value": "application/json; charset=utf-8"
+    						},
+    						{
+    							"name": "Content-Length",
+    							"value": "240"
+    						},
+    						{
+    							"name": "ETag",
+    							"value": "W/\"f0-xW2MqTYVqplPcS0Thoww4A2XL2I\""
+    						},
+    						{
+    							"name": "Date",
+    							"value": "Mon, 18 Dec 2023 11:19:39 GMT"
+    						},
+    						{
+    							"name": "Connection",
+    							"value": "keep-alive"
+    						},
+    						{
+    							"name": "Keep-Alive",
+    							"value": "timeout=5"
+    						}
+    					],
+    					"content": {
+    						"size": 240,
+    						"mimeType": "application/json; charset=utf-8",
+    						"text": "{\"product\":{\"id\":1,\"name\":\"Product Name\",\"description\":\"This is a dummy product.\",\"price\":\"100.00\",\"quantity\":50,\"is_bettable\":false,\"is_active\":\"Y\",\"start_time\":null,\"end_time\":null,\"createdat\":\"2023-12-18T11:19:39.414Z\",\"updatedat\":null}}"
+    					},
+    					"redirectURL": "",
+    					"headersSize": -1,
+    					"bodySize": -1
+    				},
+    				"cache": {},
+    				"timings": {
+    					"blocked": -1,
+    					"dns": -1,
+    					"connect": -1,
+    					"send": 0,
+    					"wait": 201.774,
+    					"receive": 0,
+    					"ssl": -1
+    				},
+    				"comment": "addProduct"
+    			},
+    			{
+    				"startedDateTime": "2023-12-27T07:07:34.784Z",
+    				"time": 338.011,
+    				"request": {
+    					"method": "GET",
+    					"url": "https://x4us-backend-mvq6.onrender.com/products",
+    					"httpVersion": "HTTP/1.1",
+    					"cookies": [],
+    					"headers": [
+    						{
+    							"name": "User-Agent",
+    							"value": "insomnia/2023.5.8"
+    						}
+    					],
+    					"queryString": [],
+    					"postData": {
+    						"mimeType": "",
+    						"text": "",
+    						"params": []
+    					},
+    					"headersSize": -1,
+    					"bodySize": -1,
+    					"settingEncodeUrl": true
+    				},
+    				"response": {
+    					"status": 200,
+    					"statusText": "",
+    					"httpVersion": "HTTP/1.1",
+    					"cookies": [],
+    					"headers": [
+    						{
+    							"name": "date",
+    							"value": "Sun, 10 Dec 2023 17:35:36 GMT"
+    						},
+    						{
+    							"name": "content-type",
+    							"value": "application/json; charset=utf-8"
+    						},
+    						{
+    							"name": "cf-ray",
+    							"value": "83373ecd5bbd5514-DEL"
+    						},
+    						{
+    							"name": "cf-cache-status",
+    							"value": "DYNAMIC"
+    						},
+    						{
+    							"name": "etag",
+    							"value": "W/\"104-qJoopN29DBfHpSpT3orknLXTJTY\""
+    						},
+    						{
+    							"name": "vary",
+    							"value": "Accept-Encoding"
+    						},
+    						{
+    							"name": "rndr-id",
+    							"value": "92fcf404-4b3f-43ea"
+    						},
+    						{
+    							"name": "x-powered-by",
+    							"value": "Express"
+    						},
+    						{
+    							"name": "x-render-origin-server",
+    							"value": "Render"
+    						},
+    						{
+    							"name": "server",
+    							"value": "cloudflare"
+    						},
+    						{
+    							"name": "alt-svc",
+    							"value": "h3=\":443\"; ma=86400"
+    						}
+    					],
+    					"content": {
+    						"size": 260,
+    						"mimeType": "application/json; charset=utf-8",
+    						"text": "{\"products\":[{\"id\":1,\"name\":\"Peoduct Name\",\"description\":\"This is a dummy product.\",\"price\":\"120.00\",\"quantity\":50,\"is_bettable\":false},{\"id\":2,\"name\":\"Peoduct Name\",\"description\":\"This is a dummy product.\",\"price\":\"100.00\",\"quantity\":50,\"is_bettable\":false}]}"
+    					},
+    					"redirectURL": "",
+    					"headersSize": -1,
+    					"bodySize": -1
+    				},
+    				"cache": {},
+    				"timings": {
+    					"blocked": -1,
+    					"dns": -1,
+    					"connect": -1,
+    					"send": 0,
+    					"wait": 338.011,
+    					"receive": 0,
+    					"ssl": -1
+    				},
+    				"comment": "allProduct"
+    			},
+    			{
+    				"startedDateTime": "2023-12-27T07:07:34.784Z",
+    				"time": 177.667,
+    				"request": {
+    					"method": "PUT",
+    					"url": "http://localhost:3000/products/1",
+    					"httpVersion": "HTTP/1.1",
+    					"cookies": [],
+    					"headers": [
+    						{
+    							"name": "Content-Type",
+    							"value": "application/json"
+    						},
+    						{
+    							"name": "User-Agent",
+    							"value": "insomnia/2023.5.8"
+    						},
+    						{
+    							"name": "Authorization",
+    							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTcwMjkwMTIzNSwiZXhwIjoxNzAyOTA0ODM1fQ.oxGAy9yBvJvXrPb02XbWYbchoEs6Txa-tkKdR7VItaA"
+    						}
+    					],
+    					"queryString": [],
+    					"postData": {
+    						"mimeType": "application/json",
+    						"text": "{\n\t\t\"name\": \"Product Name\",\n\t\t\"description\": \"This is a dummy product.\",\n\t\t\"price\": \"100.00\",\n\t\t\"quantity\": 50,\n\t\t\"is_active\": \"Y\",\n\t\t\"is_bettable\": true,\n\t\t\"start_time\": \"2023-12-18 06:19:39.414\",\n\t\t\"end_time\": \"2023-12-18 06:19:39.414\",\n\t\t\"updatedat\": \"2023-12-18 06:19:39.414\"\n}\n",
+    						"params": []
+    					},
+    					"headersSize": -1,
+    					"bodySize": -1,
+    					"settingEncodeUrl": true
+    				},
+    				"response": {
+    					"status": 200,
+    					"statusText": "OK",
+    					"httpVersion": "HTTP/1.1",
+    					"cookies": [],
+    					"headers": [
+    						{
+    							"name": "X-Powered-By",
+    							"value": "Express"
+    						},
+    						{
+    							"name": "Content-Type",
+    							"value": "application/json; charset=utf-8"
+    						},
+    						{
+    							"name": "Content-Length",
+    							"value": "305"
+    						},
+    						{
+    							"name": "ETag",
+    							"value": "W/\"131-r2oWqu0WMCHVN5KRiok1cpxTHvc\""
+    						},
+    						{
+    							"name": "Date",
+    							"value": "Mon, 18 Dec 2023 12:09:42 GMT"
+    						},
+    						{
+    							"name": "Connection",
+    							"value": "keep-alive"
+    						},
+    						{
+    							"name": "Keep-Alive",
+    							"value": "timeout=5"
+    						}
+    					],
+    					"content": {
+    						"size": 305,
+    						"mimeType": "application/json; charset=utf-8",
+    						"text": "{\"product\":{\"id\":1,\"name\":\"Product Name\",\"description\":\"This is a dummy product.\",\"price\":\"100.00\",\"quantity\":50,\"is_bettable\":true,\"is_active\":\"Y\",\"start_time\":\"2023-12-18T11:19:39.414Z\",\"end_time\":\"2023-12-18T11:19:39.414Z\",\"createdat\":\"2023-12-18T11:19:39.414Z\",\"updatedat\":\"2023-12-18T11:19:39.414Z\"}}"
+    					},
+    					"redirectURL": "",
+    					"headersSize": -1,
+    					"bodySize": -1
+    				},
+    				"cache": {},
+    				"timings": {
+    					"blocked": -1,
+    					"dns": -1,
+    					"connect": -1,
+    					"send": 0,
+    					"wait": 177.667,
+    					"receive": 0,
+    					"ssl": -1
+    				},
+    				"comment": "updateProduct"
+    			}
+    		]
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1703661487094
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

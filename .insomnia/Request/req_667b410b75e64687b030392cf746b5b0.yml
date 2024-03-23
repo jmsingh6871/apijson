@@ -1,0 +1,34 @@
+_id: req_667b410b75e64687b030392cf746b5b0
+type: Request
+parentId: fld_b129419b3a1f40d98c5dd2c9a31f9892
+modified: 1711220244751
+created: 1711218474756
+url: https://x4us-backend-opu5.onrender.com/api/category/
+name: add
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+      "name": "Beauty",
+      "display_name": "Beauty",
+      "status": 1,
+      "created_by": "Admin",
+      "updated_by": "Admin"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1711218474756
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

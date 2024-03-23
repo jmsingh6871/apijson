@@ -1,0 +1,23 @@
+_id: req_3725cb1e209b41e2b79ec75bc20f0839
+type: Request
+parentId: fld_b129419b3a1f40d98c5dd2c9a31f9892
+modified: 1711220255257
+created: 1711219285291
+url: https://x4us-backend-opu5.onrender.com/api/category/65ff2186963de3b2882fe6cc
+name: delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1711219285291
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

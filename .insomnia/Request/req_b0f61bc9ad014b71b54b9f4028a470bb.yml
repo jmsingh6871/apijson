@@ -1,0 +1,35 @@
+_id: req_b0f61bc9ad014b71b54b9f4028a470bb
+type: Request
+parentId: fld_b772e54559f34f97ba752cd4c2c4a093
+modified: 1711216730680
+created: 1702219776070
+url: https://x4us-backend-opu5.onrender.com/api/auth/signup
+name: Signup
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "first_name":"name",
+    	"last_name":"Sachdeva",	
+    	"gender":"male",
+    	"email":"name@gmail.com",
+    	"mobile":"999999999",
+    	"password":"999999999"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1702226021138
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

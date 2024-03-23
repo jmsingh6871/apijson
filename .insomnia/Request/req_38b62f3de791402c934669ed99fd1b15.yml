@@ -1,0 +1,31 @@
+_id: req_38b62f3de791402c934669ed99fd1b15
+type: Request
+parentId: fld_b129419b3a1f40d98c5dd2c9a31f9892
+modified: 1711220250081
+created: 1711219121976
+url: https://x4us-backend-opu5.onrender.com/api/category/65ff2186963de3b2882fe6cc
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |
+    {
+      "name": "Beauty",
+      "display_name": "Face Makeup"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1711219121976
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

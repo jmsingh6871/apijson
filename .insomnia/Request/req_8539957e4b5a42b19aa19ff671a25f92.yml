@@ -1,0 +1,40 @@
+_id: req_8539957e4b5a42b19aa19ff671a25f92
+type: Request
+parentId: fld_b893ae09303e4a78bca28e138e6874d1
+modified: 1711218443771
+created: 1702221417279
+url: https://x4us-backend-opu5.onrender.com/api/products
+name: addProduct
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "name": "Wood",
+        "displayName": "Product Display Name",
+        "shortDesc": "Short description of the product",
+        "longDesc": "Long description of the product",
+        "sku": "123456",
+        "price": 49.99,
+        "salePrice": 39.99,
+        "stock_qty": 100,
+        "alert_qty": 10,
+        "status": 1,
+        "created_by": "65f5f9f7b551d8a85b3b73db"
+      }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1711218443717
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
