@@ -1,0 +1,25 @@
+_id: req_47c260d353bf45e289895aa48ab414a1
+type: Request
+parentId: fld_a40e20acfe2b4065806901cc2604e301
+modified: 1711907341095
+created: 1711832928514
+url: http://localhost:5000/api/users/cart/6600847cca7d7de24ff77abd
+name: New Request
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjA4NzU2ZjI3N2Y5YWZiMTcyOGIzZGYiLCJpYXQiOjE3MTE5MDcyOTMsImV4cCI6MTcxMTkxMDg5M30.R9BdLQpQbKmbBEU2zCiRInxtaW45k6Gi2g7vySd2hxQ
+metaSortKey: -1711832928514
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

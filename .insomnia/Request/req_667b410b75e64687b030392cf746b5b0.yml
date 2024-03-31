@@ -1,9 +1,9 @@
 _id: req_667b410b75e64687b030392cf746b5b0
 type: Request
 parentId: fld_b129419b3a1f40d98c5dd2c9a31f9892
-modified: 1711220244751
+modified: 1711315974501
 created: 1711218474756
-url: https://x4us-backend-opu5.onrender.com/api/category/
+url: http://localhost:5000/api/category/
 name: add
 description: ""
 method: POST
@@ -11,11 +11,9 @@ body:
   mimeType: application/json
   text: |
     {
-      "name": "Beauty",
-      "display_name": "Beauty",
-      "status": 1,
-      "created_by": "Admin",
-      "updated_by": "Admin"
+      "name": "dummy",
+      "display_name": "dummy",
+      "status": 1
     }
 parameters: []
 headers:
@@ -23,7 +21,9 @@ headers:
     value: application/json
   - name: User-Agent
     value: insomnia/2023.5.8
-authentication: {}
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjAwOTFkZGYzNjUzYzIzZTIzMzBmNmMiLCJpYXQiOjE3MTEzMTU5NTgsImV4cCI6MTcxMTMxOTU1OH0.KChcdyApeHpswICWQ74gKhmjRTb7w_JH31n353ZLA8E
 metaSortKey: -1711218474756
 isPrivate: false
 settingStoreCookies: true

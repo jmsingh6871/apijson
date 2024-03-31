@@ -1,9 +1,9 @@
 _id: req_2b8f06d4059242f88cc4b9d0f0414647
 type: Request
 parentId: fld_b772e54559f34f97ba752cd4c2c4a093
-modified: 1710619008824
+modified: 1711830365540
 created: 1702220865978
-url: https://x4us-backend-opu5.onrender.com/api/auth/signin
+url: http://localhost:5000/api/auth/signin
 name: Signin
 description: ""
 method: POST
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-      "email": "nagpalnitesh9@gmail.com",
-      "password": "wahegurji"
+      "email": "user@pixxmo.com",
+      "password": "user123"
     }
 parameters: []
 headers:

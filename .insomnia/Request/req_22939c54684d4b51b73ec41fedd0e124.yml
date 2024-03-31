@@ -1,9 +1,9 @@
 _id: req_22939c54684d4b51b73ec41fedd0e124
 type: Request
 parentId: fld_b893ae09303e4a78bca28e138e6874d1
-modified: 1711218458941
+modified: 1711313483091
 created: 1702225780637
-url: https://x4us-backend-opu5.onrender.com/api/products/65f6154e3fdf683913c6f772
+url: http://localhost:5000/api/products/6600919acdc4118b4336b90d
 name: updateProduct
 description: ""
 method: PUT
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |
     {
-    		"name": "wood"
+    		"name": "table"
     		
     }
 parameters: []
@@ -22,7 +22,7 @@ headers:
     value: insomnia/2023.5.8
 authentication:
   type: bearer
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTcwMjkwMTIzNSwiZXhwIjoxNzAyOTA0ODM1fQ.oxGAy9yBvJvXrPb02XbWYbchoEs6Txa-tkKdR7VItaA
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjAwOTFkZGYzNjUzYzIzZTIzMzBmNmMiLCJpYXQiOjE3MTEzMTMzODMsImV4cCI6MTcxMTMxNjk4M30.UOJYJrMs86ZK62oJzmirDKBH1cx-bAgE60Y9-rLJRws
 metaSortKey: -1711218444017
 isPrivate: false
 settingStoreCookies: true

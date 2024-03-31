@@ -1,0 +1,25 @@
+_id: req_df15786259b94f4e99917bfdd79c3b45
+type: Request
+parentId: fld_cf546f555c8a456086844610797933f3
+modified: 1711907021051
+created: 1711830175827
+url: http://localhost:5000/api/users/wishlist/6600847cca7d7de24ff77abd
+name: addtowishlist
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjA4NzU2ZjI3N2Y5YWZiMTcyOGIzZGYiLCJpYXQiOjE3MTE5MDcwMDksImV4cCI6MTcxMTkxMDYwOX0.zwXqqlJJjX1AaD1uJ7ZxGoJSmPDJKpk-omwe86iuK00
+metaSortKey: -1711832910101
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

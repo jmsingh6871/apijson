@@ -1,9 +1,9 @@
 _id: req_8539957e4b5a42b19aa19ff671a25f92
 type: Request
 parentId: fld_b893ae09303e4a78bca28e138e6874d1
-modified: 1711218443771
+modified: 1711316872586
 created: 1702221417279
-url: https://x4us-backend-opu5.onrender.com/api/products
+url: http://localhost:5000/api/products
 name: addProduct
 description: ""
 method: POST
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-        "name": "Wood",
+        "name": "salt",
         "displayName": "Product Display Name",
         "shortDesc": "Short description of the product",
         "longDesc": "Long description of the product",
@@ -20,8 +20,8 @@ body:
         "salePrice": 39.99,
         "stock_qty": 100,
         "alert_qty": 10,
-        "status": 1,
-        "created_by": "65f5f9f7b551d8a85b3b73db"
+    		"category":"65ff2279963de3b2882fe6d3",
+        "status": 1
       }
 parameters: []
 headers:
@@ -29,7 +29,11 @@ headers:
     value: application/json
   - name: User-Agent
     value: insomnia/2023.5.8
-authentication: {}
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjAwM2VhZWE4ZTlkNTAyZGYwZWFmMmEiLCJpYXQiOjE3MTEzMTYxMTksImV4cCI6MTcxMTMxOTcxOX0.nufGKNBxGuOMmJ5SjtBalsG_uOq6Y9TAOKMZlzEjwaU
+  prefix: ""
+  disabled: false
 metaSortKey: -1711218443717
 isPrivate: false
 settingStoreCookies: true

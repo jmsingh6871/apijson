@@ -1,26 +1,19 @@
-_id: req_3722cf0f71c64766b8b4d6bb5a4a11ba
+_id: req_38f4a1e0fba64e9790592221e54cab56
 type: Request
 parentId: fld_b893ae09303e4a78bca28e138e6874d1
-modified: 1711830256983
-created: 1702227309191
-url: http://localhost:5000/api/products/
-name: getproducts
+modified: 1711290034811
+created: 1711289969837
+url: http://localhost:5000/api/products/category/65ff2279963de3b2882fe6d3
+name: bycategory
 description: ""
 method: GET
-body:
-  mimeType: application/json
-  text: ""
+body: {}
 parameters: []
 headers:
-  - name: Content-Type
-    value: application/json
   - name: User-Agent
     value: insomnia/2023.5.8
-authentication:
-  type: bearer
-  token: ""
-  disabled: true
-metaSortKey: -1711218443917
+authentication: {}
+metaSortKey: -1711289969837
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
